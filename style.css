@@ -1,0 +1,171 @@
+nav{
+	border: 2px solid black;
+	height: 50px;
+	background-color: lightblue; 
+}
+#link{
+	border: none;
+	height: 30px;
+	width: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#link{
+	display: flex;
+	width: 50%;
+	justify-content:space-around;
+}
+
+h1{
+	color:black;
+	font-family: arial;
+	text-align: center;
+	font-size: 70px;
+}
+section{
+	background: #f9f9f9;
+	color:black;
+	margin: 36px;
+	padding: 13px;
+	border: none;
+}
+header{
+	background-color: #f9f9f9;
+	margin: 36px;
+	padding: 13px;
+	border: none;
+	color: black;
+}
+p{
+	font-family: Raleway;
+}
+h3{
+	text-decoration: underline;
+	font-size: 30px;
+	
+}
+table{
+	color:black;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin:auto;
+}
+tr{
+	display: block;
+	margin: auto;
+}
+a{
+	color: black;
+}
+img{
+	border: 3px solid black;
+}
+footer ul li {
+	margin: 5px;
+}
+footer ul{
+	padding: 0;
+}
+#profilepic{
+	border-radius: 50%;
+	border: 3px solid darkblue;
+	display: block;
+	margin: 0 auto;
+}
+#name{
+	color:black;
+	text-align: center;
+}
+.sit{
+	background:lightblue;
+}
+.like{
+	display: inline-block;
+	margin: 50px;
+	position: relative;
+	bottom: 20px;
+}
+.dislike{
+	display: inline-block;
+	float: right;
+	position: relative;
+	left: :-100px;
+}
+.container{
+	position: relative;
+}
+.knowme{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	box-sizing: border-box;
+	
+	
+
+}
+.uktrip{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%
+	box-sizing:border-box;
+
+}
+
+.plans{
+	display: inline-block;
+	border: none;
+	vertical-align: top;
+
+	
+}
+.addme{
+	display: inline-block;
+	position: relative;
+	right: -100px;
+	border: none;
+	vertical-align: top;
+
+}
+.column{
+	display: inline-block;
+	width: 40%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	}
+@media(max-width: 1100px){
+	.column{
+		display: block;
+		margin: 0 0 ;
+	}
+
+}
+.keepintouch{
+	background-color: #f9f9f9;
+}
+.cities{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: 80px;
+	border: none;
+	box-sizing: border-box;
+	margin: 0 auto;
+
+}
+.in_touch{
+	display: inline-block;
+}
+.facebook{
+	background-color:rgba(0,0,255,0.3);;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
